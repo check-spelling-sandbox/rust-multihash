@@ -11,7 +11,7 @@
 //! sizes then necessarily needed for backwards/forward compatibility.
 //!
 //! If you set `#mh(alloc_size = …)` to a too low value, you will get compiler errors. Please note
-//! the the sizes are checked only on a syntactic level and *not* on the type level. This means
+//! the sizes are checked only on a syntactic level and *not* on the type level. This means
 //! that digest need to have a size const generic, which is a valid `usize`, for example `32` or
 //! `64`.
 //!
