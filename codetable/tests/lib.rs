@@ -218,7 +218,7 @@ fn assert_roundtrip() {
     }
 }
 
-/// Testing the public interface of `Multihash` and coversions to it
+/// Testing the public interface of `Multihash` and conversions to it
 fn multihash_methods<H>(code: Code, prefix: &str, digest_str: &str)
 where
     H: Hasher + Default,
