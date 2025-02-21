@@ -58,7 +58,7 @@ pub enum Code {
 }
 
 macro_rules! assert_encode {
-   // Mutlihash enum member, Multihash code, input, Multihash as hex
+   // Multihash enum member, Multihash code, input, Multihash as hex
    {$( $alg:ty, $code:expr, $data:expr, $expect:expr; )*} => {
        $(
            let expected = hex::decode($expect).unwrap();
